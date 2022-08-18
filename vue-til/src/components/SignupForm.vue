@@ -29,9 +29,6 @@ export default {
 			logMessage: '',
 		};
 	},
-
-	mounted() {},
-
 	methods: {
 		async submitForm() {
 			const userData = {
@@ -52,4 +49,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style></style>
