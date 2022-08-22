@@ -1,5 +1,5 @@
 <template>
-	<form @submit="submitForm">
+	<form @submit.prevent="submitForm">
 		<div>
 			<label for="username">id: </label>
 			<input type="text" id="username" v-model="username" />
@@ -13,6 +13,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
 	data() {
 		return {
@@ -21,7 +23,9 @@ export default {
 		};
 	},
 	methods: {
-		submitForm() {},
+		submitForm() {
+			axios.post();
+		},
 	},
 };
 </script>

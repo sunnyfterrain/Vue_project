@@ -14,4 +14,6 @@ export function registerUser(userData) {
 	return instance.post('signup', userData);
 }
 
-export function loginUser() {}
+export function loginUser(userData) {
+	return instance.post('login', userData);
+}
