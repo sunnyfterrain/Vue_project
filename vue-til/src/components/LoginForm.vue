@@ -14,7 +14,6 @@
 </template>
 
 <script>
-import axios from 'axios';
 import { loginUser } from '@/api/index';
 
 export default {
